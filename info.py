@@ -6,7 +6,7 @@ github_image_url = "https://cdn-icons-png.flaticon.com/256/25/25231.png"
 email_image_url = "https://logowik.com/content/uploads/images/513_email.jpg"
 
 my_linkedin_url = "https://www.linkedin.com/in/anthony-chang-a490393b9/"
-my_github_url = "https://github.com/changanthony77-prog/Anthony.git"
+my_github_url = "https://github.com/changanthony77-prog/Anthony"
 my_email_address = "achang358@gatech.edu"
 
 education_data = {
@@ -68,10 +68,10 @@ spoken_data = {
 
 leadership_data = {
     "Former Team USA Karate Representative": [
-        "Was offered by the Okinawan Karate and American Karate Federation of Shorin-Ryu to go on an all expenses covered World tournament in Okinawa, Japan."
+        "Was offered by the Okinawan Karate and American Karate Federation of Shorin-Ryu to go on an all expenses covered World tournament in Okinawa, Japan.", "Images/Karate.jpg"]
     ],
 }
 
 activity_data = {
-    "None Currently": ["- I Haven't been able to find time for extracirrculars outside of studio"]
+    "None Currently": ["- I Haven't been able to find time for extracirrculars outside of studio", "Images/Architecture.jpg"]
 }
