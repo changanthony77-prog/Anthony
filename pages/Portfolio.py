@@ -114,7 +114,8 @@ def activities_section(leadership_data, activity_data):
 
     with tab2:
         st.subheader("Community Service")
-         for title, details in activity_data.items():
+
+        for title, details in activity_data.items():
             expander = st.expander(title)
             if isinstance(details, list):
                 for bullet in details:
@@ -122,5 +123,6 @@ def activities_section(leadership_data, activity_data):
             else:
                 expander.write(details)
 activities_section(info.leadership_data, info.activity_data)
+
 
     
