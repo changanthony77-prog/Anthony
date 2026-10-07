@@ -17,7 +17,7 @@ q1_answer = st.radio(
     index = None,
 )
    
-st.image("Images/chiikawa.png.")
+st.image("Images/chiikawa.png")
 #Question 2 #NEW
 q2_answer = st.multiselect(
     "2. Which of the following characters are in the trio? (SELECT ALL THAT APPLY)",
