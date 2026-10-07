@@ -73,8 +73,11 @@ def experience_section(experience_data):
     for job_title, (job_description, image) in experience_data.items():
         expander = st.expander(job_title)
         expander.image(image, width=250)
-        for bullet in job_description:
-            expander.write(bullet)
+        if isinstance(job_description, list):
+            for bullet in job_description:
+                expander.write(bullet)
+        else:
+            expander.write(job_description)
 experience_section(info.experience_data)
 
 def projects_section(projects_data):
@@ -102,17 +105,14 @@ def activities_section(leadership_data, activity_data):
         for title, (details, image) in leadership_data.items():
             expander = st.expander(title)
             expander.image(image, width=250)
-            for bullet in details:
-                expander.write(bullet)
+            if isinstance(details, list):
+                for bullet in details:
+                    expander.write(bullet)
+            else:
+                expander.write(details)
 
 
     with tab2:
         st.subheader("Community Service")
-
-        for title, details in activity_data.items():
-            expander = st.expander(title)
-            for bullet in details:
-                expander.write(bullet)
-activities_section(info.leadership_data, info.activity_data)
 
     
