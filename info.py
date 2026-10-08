@@ -75,6 +75,6 @@ leadership_data = {
 
 activity_data = {
     "None Currently": [
-        "- I Haven't been able to find time for extracirrculars outside of studio", "Images/Architecture.jpg"
+        "- I Haven't been able to find time for extracirrculars outside of studio"
     ],
  }
